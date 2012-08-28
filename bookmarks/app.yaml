@@ -4,5 +4,5 @@ runtime: python
 api_version: 1
 
 handlers:
-- usr: /.*
- script: bookmarks_main.py
+- url: /.*
+  script: bookmarks_main.py
